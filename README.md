@@ -42,3 +42,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   - *storage* for raw audio files
 - Vuefire and Vuexfire
   - `npm i vuefire firebase`
+
+#### Lesson 4: Your First Component
+
+- Install vue router
+  - `npm i vue-router`
+- I downgraded firebase version from v9 to v7 for Fireship's tutorial to work
+- Updated main.js to include set up for router
+  - import VueRouter
+  - Vue.use(VueRouter)
+  - Include in Vue app initialization
+  - Declare routes
