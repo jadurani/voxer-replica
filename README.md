@@ -53,3 +53,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   - Vue.use(VueRouter)
   - Include in Vue app initialization
   - Declare routes
+
+  #### Lesson 5: Anonymous Auth
+
+  - Basic user authentication with Firebase
+  - `auth.signInAnonymously()`
+    - creates a user record that is now logged in to this app

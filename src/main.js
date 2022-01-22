@@ -10,7 +10,9 @@ Vue.config.productionTip = false
 import Home from './pages/Home';
 
 const router = new VueRouter({
-  routes: [ { path: '/', component: Home } ]
+  routes: [
+    { path: '/', component: Home },
+  ]
 });
 
 new Vue({
