@@ -98,3 +98,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   |  |  |- 0: <document_id>
   |  |- owner: <document_id>
 ```
+
+#### Lesson 10: Query Chat Rooms
+
+- Use a vuefire functionality `firestore()` within a component that manages the real-time state of the data within firestore
+
+#### Lesson 11: Dynamic Routing
+
+- Target: `example.com/chats/:id`
+- Used `computed`
+- $route is built-in to the vue framework and gives us access to route params
+- Used named components for the routes
