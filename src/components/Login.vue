@@ -65,7 +65,7 @@ export default {
       try {
         this.loading = true;
         this.errorMessage = '';
-        await auth.createWithEmailAndPassword(this.email, this.password);
+        await auth.createUserWithEmailAndPassword(this.email, this.password);
       } catch (error) {
         this.errorMessage = error;
       }

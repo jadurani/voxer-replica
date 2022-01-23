@@ -79,3 +79,22 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 #### Lesson 8: Email Password Authentication
 
 - We use 2-way data-binding via `v-model`
+
+#### Lesson 9: Create Chat Rooms
+
+- We'll be using firbase's cloud firestore as our database.
+- Sample data model
+
+```
+- chats/
+  |- <document_id>/
+  |  |- createdAt
+  |  |- members/
+  |  |  |- 0: <document_id>
+  |  |- owner: <document_id>
+  |- <document_id>/
+  |  |- createdAt
+  |  |- members/
+  |  |  |- 0: <document_id>
+  |  |- owner: <document_id>
+```
