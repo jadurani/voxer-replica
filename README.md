@@ -54,8 +54,20 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   - Include in Vue app initialization
   - Declare routes
 
-  #### Lesson 5: Anonymous Auth
+#### Lesson 5: Anonymous Auth
 
   - Basic user authentication with Firebase
   - `auth.signInAnonymously()`
     - creates a user record that is now logged in to this app
+
+#### Lesson 6: Realtime Auth State
+
+- Use Vue Composition API
+  - API that makes it easier to manage realtime streams like the user authentication state
+  - install the composition api
+    - `npm i @vue/composition-api`
+  - `ref`
+    - a way to create a reactive value; whenever this value changes, vue will react by rerendering the UI
+  - Create a user component that gives the current auth state; better pattern than checking the auth state in every single page
+  - `setup` and ` destroyed` lifecycle hooks are used
+  - `slot` prop maximizes the reusability of a component by making the property of a chilt component available to the parent component
