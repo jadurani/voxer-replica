@@ -14,8 +14,8 @@
 
 <script>
 
-import Login from './Login.vue';
-import User from './User.vue';
+import Login from '../components/Login.vue';
+import User from '../components/User.vue';
 
 export default {
   components: { Login, User }
