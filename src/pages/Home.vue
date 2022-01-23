@@ -4,8 +4,7 @@
 
     <User v-slot:user="{ user }">
       <div v-if="user">
-        Logged-in as {{ user.uid }}
-
+        <UserProfile :user="user" />
       </div>
       <Login v-else />
     </User>
@@ -16,8 +15,9 @@
 
 import Login from '../components/Login.vue';
 import User from '../components/User.vue';
+import UserProfile from '../components/UserProfile.vue';
 
 export default {
-  components: { Login, User }
+  components: { Login, User, UserProfile }
 }
 </script>
