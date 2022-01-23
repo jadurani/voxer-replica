@@ -116,3 +116,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   - `chats/{chat-id}/messages/{id}`
   - `messages` is a subcollection to the existing `chats/{chat-id}` collection
 - Send messages, display and query messages
+
+#### Lesson 13: Messages UI
+
+- Objective: Show a different UI when the user sent the message
+- Setting up a dumb/presentational component that's only concerned with the UI

@@ -6,7 +6,9 @@
     <User #user="{ user }">
       <ul>
         <li v-for="message in messages" :key="message.id">
-          {{ message.text }}
+          <ChatMessage
+            :message="message"
+            owner="user.uid === message.sender"></ChatMessage>
         </li>
       </ul>
 
@@ -26,11 +28,13 @@
 <script>
 
 import User from '../components/User.vue';
+import ChatMessage from '../components/ChatMessage.vue';
 import { db } from '../firebase';
 
 export default {
   components: {
-    User
+    User,
+    ChatMessage
   },
   data() {
     return {
