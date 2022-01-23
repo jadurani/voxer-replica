@@ -109,3 +109,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Used `computed`
 - $route is built-in to the vue framework and gives us access to route params
 - Used named components for the routes
+
+#### Lesson 12: Query Messages
+
+- Firestore
+  - `chats/{chat-id}/messages/{id}`
+  - `messages` is a subcollection to the existing `chats/{chat-id}` collection
+- Send messages, display and query messages
