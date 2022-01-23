@@ -71,3 +71,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   - Create a user component that gives the current auth state; better pattern than checking the auth state in every single page
   - `setup` and ` destroyed` lifecycle hooks are used
   - `slot` prop maximizes the reusability of a component by making the property of a chilt component available to the parent component
+
+#### Lesson 7: User Profile
+
+- Here we just worked with what we already know
+
+#### Lesson 8: Email Password Authentication
+
+- We use 2-way data-binding via `v-model`
