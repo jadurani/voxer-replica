@@ -121,3 +121,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - Objective: Show a different UI when the user sent the message
 - Setting up a dumb/presentational component that's only concerned with the UI
+
+#### Lesson 14: Capture Audio
+
+- Use the MediaRecorder API to record a stream from the user's microphone
+- https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
